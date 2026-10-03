@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merge Test Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Mini Record System</h1>
+    <p id="status">Checking backend...</p>
+
+    <section class="card">
+      <h2>Add Record</h2>
+
+      <form id="recordForm">
+        <input
+          type="text"
+          id="nameInput"
+          placeholder="Enter a name"
+          required
+        >
+        <button type="submit">Add Record</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Records</h2>
+      <ul id="recordList">
+        <li>Loading...</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
